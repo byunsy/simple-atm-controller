@@ -67,3 +67,11 @@ python tests/test.py
 ```
 
 **Note** that running the test file may generate terminal outputs that are unrelated to the tests. These are printed because I have included test cases for functions that generate some terminal outputs. Additionally, the program may pause for few seconds, and this is due to the sleep() function I have inserted for better user interface purposes. However, these will not ultimately affect the test performance.
+
+## Demonstrations
+
+Creating account and inserting card
+![](images/atm1.gif)
+
+Selecting accounts and performing account actions (See Balance/Deposit/Withdraw)
+![](images/atm2.gif)
