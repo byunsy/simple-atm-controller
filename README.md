@@ -10,26 +10,26 @@ For simplicity, all account balances are represented as integers and every accou
 
 The program has four main steps.
 
-1. Create Account
+1. **Create Account**
 
    - Before you insert your card, make sure that you have actually created an account using the ATM machine. Creating the account will require you to input your name, card number (XXXX-XXXX-XXXX-XXXX format), and PIN number (6 digits).
    - The information you pass in will be stored within the program. Make sure you remember the information you type in.
 
-2. Insert Card
+2. **Insert Card**
 
    - You will be able to 'insert' your card by passing in your card number (so that the program can read the card information).
    - Card number must be typed in as XXXX-XXXX-XXXX-XXXX 16 digit format.
 
-3. PIN number
+3. **PIN number**
 
    - Afterwards, you will need to type in the PIN number you have registered with. The program will check whether your PIN number matches the card number.
    - PIN number must be six digits without any spaces or characters in between.
 
-4. Select Account
+4. **Select Account**
 
    - You can select Checkings and/or Savings account.
 
-5. Selcet Action (See Balance/Deposit/Withdraw)
+5. **Selcet Action** (See Balance/Deposit/Withdraw)
 
    - You will have a total of three account actions: See Balance, Deposit, and Withdraw).
    - 'See Balance' will display the current balance of the account you have selected. 'Deposit' and 'Withdraw' will ask you to specify the amount you would like to deposit to and/or withdraw from your account.
