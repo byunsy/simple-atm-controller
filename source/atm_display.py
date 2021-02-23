@@ -15,7 +15,7 @@ PROCEDURE:
 PARAMETERS:
     none
 PURPOSE:
-    Clears the terminal screen
+    Clears the terminal screen.
 PRODUCES:
     none, a void function
 REFERENCES:
@@ -38,7 +38,7 @@ PROCEDURE:
 PARAMETERS:
     string, any string value
 PURPOSE:
-    Prints the string at the center of the terminal (in terms of width)
+    Prints the string at the center of the terminal (in terms of width).
 PRODUCES:
     none, a void function
 ----------------------------------------------------------------------------"""

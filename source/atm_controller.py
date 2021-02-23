@@ -125,7 +125,7 @@ PROCEDURE:
 PARAMETERS:
     none
 PURPOSE:
-    Creates an account and addes it to the system. This step is required for
+    Creates an account and adds it to the system. This step is required for
     users to insert and use their cards. 
 PRODUCES:
     none, a void function
@@ -220,7 +220,8 @@ PROCEDURE:
 PARAMETERS:
     idx, an index of the account found in the accounts_list.
 PURPOSE:
-    Shows the overall account information.
+    Shows the overall account information: name, card, checking balance, and
+    savings balance.
 PRODUCES:
     none, a void function
 ----------------------------------------------------------------------------"""
@@ -244,8 +245,8 @@ def show_account_info(idx):
 PROCEDURE:
     show_balance(idx, account)
 PARAMETERS:
-    account, a char value ('c' for checking and 's' for savings)
     idx, an index in the accounts_list for selected account
+    account, a char value ('c' for checking and 's' for savings)
 PURPOSE:
     Displays the current balance of a specified account.
 PRODUCES:
@@ -271,8 +272,8 @@ def show_balance(idx, account):
 PROCEDURE:
     deposit_money(idx, account)
 PARAMETERS:
-    account, a char value ('c' for checking and 's' for savings)
     idx, an index in the accounts_list for selected account
+    account, a char value ('c' for checking and 's' for savings)
 PURPOSE:
     Deposits specified amount of money to an account
 PRODUCES:
@@ -299,8 +300,8 @@ def deposit_money(idx, account):
 PROCEDURE:
     withdraw_money(idx, account)
 PARAMETERS:
-    account, a char value ('c' for checking and 's' for savings)
     idx, an index in the accounts_list for selected account
+    account, a char value ('c' for checking and 's' for savings)
 PURPOSE:
     Withdraws specified amount of money from an account
 PRODUCES:
